@@ -5,7 +5,7 @@ CS 196 Honors Project
 
 Sensor Activity :
 The sensor activity class uses the accelerometer to detect movement, and creates an instance of the CounterClass to cancel/ restart the timer . 
-To use the acceleremoter, first the SensorEventListener interface must be implemented.To do this I first call the getSystemService method with the parameter being the name of the service (in this case SENSOR_SERVICE) to get a reference to the service. Using this reference , I then get a reference to the System's accelerometer by calling getDefaultSensor method with the final variable TYPE_ACCELEROMETER. I then register the sensor.
+To use the accelerometer, first the SensorEventListener interface must be implemented.To do this I first call the getSystemService method with the parameter being the name of the service (in this case SENSOR_SERVICE) to get a reference to the service. Using this reference , I then get a reference to the System's accelerometer by calling getDefaultSensor method with the final variable TYPE_ACCELEROMETER. I then register the sensor.
 
 The onStop() and onResume() methods are only used to unregister and register the sensor respectively. 
 

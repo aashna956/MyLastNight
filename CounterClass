@@ -16,6 +16,9 @@ public class CounterClass extends CountDownTimer { //CountDownTimer is a timer c
 	
 	@Override public void onFinish() { 
 		textViewTime.setText("Completed.");
+	/* I will meet with Reid after the break to get his code for the alarm and call those methods here to complete
+	this method*/
+
 		
 	} 
 	

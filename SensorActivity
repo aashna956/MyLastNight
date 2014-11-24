@@ -62,6 +62,7 @@ public class SensorActivity extends Activity implements SensorEventListener {
 		    		                cs.start(); // restarts the timer 
 		    		            
 		    		            }
+		    		           else cs.onFinish();
 		    		 
 		    		            last_x = x;
 		    		            last_y = y;
